@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		626BE6EA20161753004F8345 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 626BE6E920161753004F8345 /* Person.m */; };
+		626BE6ED20162BA1004F8345 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 626BE6EC20162BA1004F8345 /* People.m */; };
 		62F3D3A41FD397E700E63BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F3D3A31FD397E700E63BBD /* AppDelegate.m */; };
 		62F3D3A71FD397E700E63BBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F3D3A61FD397E700E63BBD /* ViewController.m */; };
 		62F3D3AA1FD397E700E63BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F3D3A81FD397E700E63BBD /* Main.storyboard */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		626BE6E820161753004F8345 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		626BE6E920161753004F8345 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		626BE6EB20162BA1004F8345 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		626BE6EC20162BA1004F8345 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 		62F3D39F1FD397E700E63BBD /* RunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F3D3A21FD397E700E63BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62F3D3A31FD397E700E63BBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +120,10 @@
 				62F3D3AD1FD397E700E63BBD /* LaunchScreen.storyboard */,
 				62F3D3B01FD397E700E63BBD /* Info.plist */,
 				62F3D3B11FD397E700E63BBD /* main.m */,
+				626BE6E820161753004F8345 /* Person.h */,
+				626BE6E920161753004F8345 /* Person.m */,
+				626BE6EB20162BA1004F8345 /* People.h */,
+				626BE6EC20162BA1004F8345 /* People.m */,
 			);
 			path = RunTime;
 			sourceTree = "<group>";
@@ -279,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626BE6ED20162BA1004F8345 /* People.m in Sources */,
 				62F3D3A71FD397E700E63BBD /* ViewController.m in Sources */,
 				62F3D3B21FD397E700E63BBD /* main.m in Sources */,
+				626BE6EA20161753004F8345 /* Person.m in Sources */,
 				62F3D3A41FD397E700E63BBD /* AppDelegate.m in Sources */,
 				62F3D3D71FD3989C00E63BBD /* NSURL+Hook.m in Sources */,
 			);

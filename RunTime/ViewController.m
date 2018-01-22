@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+
 
 @interface ViewController ()
 
@@ -22,6 +24,10 @@
     NSURL * urlTwo = [NSURL URLWithString:@""];
     NSURL * urlThree = [NSURL URLWithString:@"https:www.baidu.com/中文"];
     NSURL * urlFour = [NSURL URLWithString:@"https:www.baidu.com"];
+    
+    Person * p = [[Person alloc] init];
+    //[p eat];
+    [Person run];
     
 }
 
