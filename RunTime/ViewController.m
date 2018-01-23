@@ -20,10 +20,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //测试
-    NSURL * urlOne = [NSURL URLWithString:nil];
-    NSURL * urlTwo = [NSURL URLWithString:@""];
-    NSURL * urlThree = [NSURL URLWithString:@"https:www.baidu.com/中文"];
-    NSURL * urlFour = [NSURL URLWithString:@"https:www.baidu.com"];
+//    NSURL * urlOne = [NSURL URLWithString:nil];
+//    NSURL * urlTwo = [NSURL URLWithString:@""];
+//    NSURL * urlThree = [NSURL URLWithString:@"https:www.baidu.com/中文"];
+//    NSURL * urlFour = [NSURL URLWithString:@"https:www.baidu.com"];
     
     Person * p = [[Person alloc] init];
     //[p eat];

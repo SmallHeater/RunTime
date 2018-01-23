@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "People.h"
 
-@interface Person : NSObject
+
+@interface Person : People
 
 -(void)eat;
 +(void)run;

@@ -7,17 +7,31 @@
 //
 
 #import "People.h"
+#import <objc/runtime.h>
 
+ 
 @implementation People
 
 -(void)run{
     
     NSLog(@"People run");
 }
+//
+//-(void)eat{
+//    
+//    NSLog(@"People eat");
+//}
 
--(void)eat{
-    
-    NSLog(@"People eat");
-}
+//+(BOOL)resolveClassMethod:(SEL)sel{
+//    
+//    NSLog(@"people_cls = %@",[self class]);
+//    class_replaceMethod([self class], sel, class_getMethodImplementation([self class], NSSelectorFromString(@"replseSEL")), "");
+//    return YES;
+//}
+//
+//+(void)replseSEL{
+//    
+//    NSLog(@"替换run实现");
+//}
 
 @end
