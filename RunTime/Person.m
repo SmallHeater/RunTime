@@ -29,21 +29,11 @@
     NSLog(@"替换eat实现");
 }
 
-//+(BOOL)resolveClassMethod:(SEL)sel{
-//
-//    Class metaClass = objc_getMetaClass(class_getName(self));
-//    IMP imp = [self methodForSelector:@selector(replseSEL)];
-//    if (sel == @selector(run)) {
-//        class_addMethod(metaClass, sel,imp , "v@:");
-//        return YES;
-//    }
-//    return [super resolveClassMethod:sel];
-//}
 
 
 +(BOOL)resolveClassMethod:(SEL)sel{
     
-    //类，父类，元类，根类。
+    //元类
     Class metaClass = objc_getMetaClass(class_getName(self));
     class_addMethod(metaClass, sel, class_getMethodImplementation([self class], NSSelectorFromString(@"replseSEL")), "");
     return YES;
